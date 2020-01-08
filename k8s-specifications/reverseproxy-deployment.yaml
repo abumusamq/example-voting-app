@@ -16,7 +16,7 @@ spec:
         app: reverseproxy
     spec:
       containers:
-      - image: amrayn/dogcat-reverseproxy:1.1
+      - image: amrayn/dogcat-reverseproxy:1.9
         name: reverseproxy
         ports:
         - containerPort: 80
